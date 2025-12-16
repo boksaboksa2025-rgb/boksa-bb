@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>مبيد الحشائش – عرض خاص</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-family: Tahoma, Arial; background:#f5f7f6; margin:0; padding:0;}
+.container {max-width:600px; margin:auto; background:#fff; padding:20px;}
+h1 {color:#1e7f4f; font-size:26px;}
+.price {font-size:22px; color:#d35400; margin:10px 0;}
+.box {border:1px solid #ddd; padding:15px; margin:15px 0; border-radius:8px;}
+.gift label {display:block; margin:8px 0; cursor:pointer;}
+button {background:#1e7f4f; color:#fff; border:none; padding:15px; width:100%; font-size:18px; border-radius:8px; cursor:pointer;}
+button:hover {background:#16643e;}
+.note {font-size:14px; color:#555;}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>مبيد الحشائش الضارة (الدارة – النجم)</h1>
+<p>يقضي على الحشائش من الجذور ✔<br>
+آمن على المزروعات عند الاستعمال الصحيح ✔</p>
+
+
+<div class="price">السعر: 75 دينار</div>
+
+
+<div class="box">
+<h3>🎁 اختر هديتك المجانية:</h3>
+<div class="gift">
+<label><input type="radio" name="gift"> قفازات رش</label>
+<label><input type="radio" name="gift"> بخاخ يدوي صغير</label>
+<label><input type="radio" name="gift"> دليل استعمال مطبوع</label>
+</div>
+</div>
+
+
+<div class="box">
+<h3>📝 معلومات الطلب:</h3>
+<input type="text" placeholder="الاسم الكامل" style="width:100%; padding:10px; margin:5px 0;">
+<input type="text" placeholder="رقم الهاتف" style="width:100%; padding:10px; margin:5px 0;">
+<input type="text" placeholder="المدينة" style="width:100%; padding:10px; margin:5px 0;">
+</div>
+
+
+<button>اطلب الآن – توصيل لكل المدن</button>
+
+
+<p class="note">⚠️ الاستعمال يكون حسب الإرشادات. لا يُرش وقت الرياح.</p>
+</div>
+</body>
+</html>
